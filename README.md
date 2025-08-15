@@ -3,15 +3,15 @@ This project provides a comprehensive analysis and dashboard for the gaming user
 
 **File description**
 
-Data.csv :	The original raw dataset used for analysis.
+- Data.csv :	The original raw dataset used for analysis.
 
-filtered_data.xlsx :	Cleaned and preprocessed version of the data, ready for analysis.
+- filtered_data.xlsx :	Cleaned and preprocessed version of the data, ready for analysis.
 
-Activity.ipynb : Jupyter Notebook containing step-by-step data cleaning, EDA, and visualizations.
+- Activity.ipynb : Jupyter Notebook containing step-by-step data cleaning, EDA, and visualizations.
 
-Dashboard.pbix :	Power BI dashboard that brings the key insights to life.
+- Dashboard.pbix :	Power BI dashboard that brings the key insights to life.
 
-Insight report.pdf :	A visual report summarizing key findings and actionable recommendations.
+- Insight report.pdf :	A visual report summarizing key findings and actionable recommendations.
 
 **Project Flow**
 
@@ -32,33 +32,33 @@ Insight report.pdf :	A visual report summarizing key findings and actionable rec
 **8. Visualization:** Created bar charts, line graphs, and pie charts to clearly illustrate user activity, revenue trends, and churn patterns in the Jupyter Notebook.
 
 **9. Dashboard Creation (Power BI):** Imported the cleaned filtered_data.xlsx into Power BI Desktop. Built an interactive dashboard with:
-    Time-series visualizations for DAU/WAU/MAU.
+- Time-series visualizations for DAU/WAU/MAU.
     
-   Revenue breakdowns by device, subscription type, and game mode.
+- Revenue breakdowns by device, subscription type, and game mode.
    
-   Geographical maps showing country-wise user engagement and churn rates.
+- Geographical maps showing country-wise user engagement and churn rates.
    
-   User segmentation visuals for high-value users and churn-risk profiles.
+- User segmentation visuals for high-value users and churn-risk profiles.
    
-   Added slicers and filters to allow stakeholders to explore the data by date range, user type, or device category.
+- Added slicers and filters to allow stakeholders to explore the data by date range, user type, or device category.
    
 **10. Insight Report:** Compiled a professional PDF report summarizing:
 
-  Key Findings: Peak usage times, revenue-driving segments, churn indicators.
+  - Key Findings: Peak usage times, revenue-driving segments, churn indicators.
   
-  Cohort Analysis: Weekly retention patterns, anomalies, and deviations from typical decline curves.
+  - Cohort Analysis: Weekly retention patterns, anomalies, and deviations from typical decline curves.
   
-  Revenue Insights: Device and subscription contributions, multiplayer dominance.
+  - Revenue Insights: Device and subscription contributions, multiplayer dominance.
 
 **11. Recommendations:**
 
-Weekend-only flash discounts to boost engagement.
+- Weekend-only flash discounts to boost engagement.
 
-Multiplayer enhancements (seasonal content, battle passes, avatars).
+- Multiplayer enhancements (seasonal content, battle passes, avatars).
 
-Console-specific rewards and challenges.
+- Console-specific rewards and challenges.
 
-Structured the report for easy consumption by stakeholders, highlighting actionable next steps.
+- Structured the report for easy consumption by stakeholders, highlighting actionable next steps.
 
 **Tools & Technologies**
 1. Python (pandas, matplotlib, seaborn, numpy)
